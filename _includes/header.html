@@ -1,0 +1,17 @@
+<header class="masthead">
+  <h1 class="masthead-title">
+    <a href="{{ site.baseurl }}/">{{ site.title }}<span></span></a>
+  </h1>
+  <p>Desenvolvedor front-end.</p>
+  <nav class="masthead-nav">
+    <ul>
+      
+    {% for page in site.pages %}
+      {% if  page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li><a href="mailto:gustavo_crj@hotmail.com">contato</a></li>
+    </ul>
+  </nav>
+</header>
