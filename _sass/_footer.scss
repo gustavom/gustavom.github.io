@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background-color: #000000;
+    @include cf();
+    .inner {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        @include cf();
+        padding: 10px 25px;
+        color: #afafaf;
+        font-family: 'Inconsolata', monospace;
+    }
+}

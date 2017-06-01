@@ -1,0 +1,19 @@
+---
+layout: projetos
+permalink: /projetos/
+---
+
+
+<div class="list-projetos-container">
+  {% for projetos in site.projetos %}
+      <div class="list-item -projetos">
+        <h2 class="list-post-title">
+          <span class="image-bg" style="background-image: url({{ projetos.image }});"></span>
+          <a href="{{ site.baseurl }}{{ projetos.url }}">{{ projetos.title }}</a>
+        </h2>
+        <!--<div class="list-post-date">
+          <time>{{ projetos.date | date_to_string }}</time>
+        </div>-->
+      </div>
+{% endfor %}
+</div>

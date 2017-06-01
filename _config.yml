@@ -19,4 +19,10 @@ github_username:  gustavom
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: /:title/
+
+collections:
+  projetos:
+    output: true
+    permalink: /projetos/:path/

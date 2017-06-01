@@ -1,5 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+//@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 //@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,600,700');
+// https://fonts.google.com/?selection.family=Inconsolata:400,700|Montserrat:400,600,700&query=mont
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -9,6 +11,8 @@ html {
   font: 16px/1.5 'Montserrat', sans-serif; }
 html,
 body {
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
