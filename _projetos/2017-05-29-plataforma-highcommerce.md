@@ -4,6 +4,7 @@ title:  "Plataforma de E-commerce HighCommerce"
 date:   2017-05-29 17:10:41 -0300
 image: /assets/images/highcommerce-plataforma.jpg
 categories: plataforma ecommerce highcommerce e-commerce
+order: 4
 ---
 
 Plataforma de e-commerce própria da empresa HighCommerce. 

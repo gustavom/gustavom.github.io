@@ -5,7 +5,8 @@ permalink: /projetos/
 
 
 <div class="list-projetos-container">
-  {% for projetos in site.projetos %}
+  {% for projetos in site.projetos reversed %}
+  
       <div class="list-item -projetos">
         <h2 class="list-post-title">
           <span class="image-bg" style="background-image: url({{ projetos.image }});"></span>
