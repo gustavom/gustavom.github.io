@@ -5,11 +5,7 @@ permalink: /projetos/
 
 
 <div class="list-projetos-container">
-  <!--{% for projetos in site.projetos reversed %}-->
-  
-    {% assign projetoss = site.projetos | sort: 'order' %}
-      {% for projeto in projetoss %}
-  
+  {% for projetos in site.projetos reversed %}
       <div class="list-item -projetos">
         <h2 class="list-post-title">
           <span class="image-bg" style="background-image: url({{ projetos.image }});"></span>
@@ -19,5 +15,5 @@ permalink: /projetos/
           <time>{{ projetos.date | date_to_string }}</time>
         </div>-->
       </div>
-{% endfor %}
+  {% endfor %}
 </div>

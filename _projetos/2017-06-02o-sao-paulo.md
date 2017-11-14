@@ -1,7 +1,7 @@
 ---
 layout: projeto-page
 title:  "Jornal O São Paulo"
-date:   2017-06-01 17:10:41 -0300
+date:   2017-06-02 17:10:41 -0300
 image: /assets/images/o-sao-paulo.jpg
 categories: jornal drupal arquidiocese journal news
 order: 2
