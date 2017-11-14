@@ -25,4 +25,4 @@ permalink: /:title/
 collections:
   projetos:
     output: true
-    permalink: /projetos/:path/
+    permalink: /projetos/:title/
