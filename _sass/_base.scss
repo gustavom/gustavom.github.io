@@ -4,17 +4,22 @@
 // https://fonts.google.com/?selection.family=Inconsolata:400,700|Montserrat:400,600,700&query=mont
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 html {
-  font: 16px/1.5 'Montserrat', sans-serif; }
+  font: 16px/1.5 'Montserrat', sans-serif;
+}
+
 html,
 body {
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background: #fffffa;
+  color: #3a3a3a;
 }
 
 html {
@@ -22,7 +27,6 @@ html {
   //font-size: 18px;
   //font-weight: 300;
   //line-height: 1.6;
-
   @media (min-width: 38em) {
     font-size: 20px;
   }
@@ -32,7 +36,7 @@ body {
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 a {
@@ -45,7 +49,12 @@ a {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
@@ -53,17 +62,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
   letter-spacing: -.025rem;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
   color: #111;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 h1 {
   //font-size: 2rem;
   font-size: 3rem;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -74,7 +90,9 @@ h3 {
   font-size: 1.3rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-size: 1rem;
 }
 
@@ -83,7 +101,9 @@ p {
   margin: 0 0 1.6rem;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -126,15 +146,15 @@ ol {
   }
 }
 
-p + h1,
-p + h2,
-p + h3,
-ul + h1,
-ul + h2,
-ul + h3,
-ol + h1,
-ol + h2,
-ol + h3 {
+p+h1,
+p+h2,
+p+h3,
+ul+h1,
+ul+h2,
+ul+h3,
+ol+h1,
+ol+h2,
+ol+h3 {
   margin-top: 1.5rem;
 }
 
@@ -195,8 +215,7 @@ pre {
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
-  // word-wrap: break-word;
+  word-break: break-all; // word-wrap: break-word;
   background-color: #f9f9f9;
 }
 
@@ -243,8 +262,7 @@ pre code {
 
 img {
   display: block;
-  max-width: 100%;
-  //margin: 0 0 1rem;
+  max-width: 100%; //margin: 0 0 1rem;
   margin: 0 0 1.8rem;
   border-radius: 5px;
 }
