@@ -10,7 +10,7 @@ Atualmente, saber utilizar o terminal é quase um requisito básico para qualque
 Assim, fiz uma listinha, que com certeza alguns vão falar que falta algo, mas pode ajudar você no dia a dia.
 
 
-Os comandos abaixo são focados em linux/unix, o windows comportilha poucos ou quase nenhum, mas eu deixei comentado os que eu achei:
+Os comandos abaixo são focados em linux/unix, o windows compartilha poucos ou quase nenhum, mas eu deixei comentado os que eu achei:
 
 
 {% highlight shell %}
