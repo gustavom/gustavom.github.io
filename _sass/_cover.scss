@@ -1,86 +1,88 @@
 .cover-page {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: #232323;
-    background-color: #fffffa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    @include cf();
-    .masthead-title {
-        a {
-            color: #ffffff;
-        }
-        &+p {
-            color: #afafaf;
-        }
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #232323;
+  background-color: #fffffa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include cf();
+  .masthead-title {
+    a {
+      color: #ffffff;
     }
+    & + p {
+      color: #afafaf;
+    }
+  }
 }
 
 .cover-photo-element {
-    display: none;
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://picsum.photos/1000?image=932) center no-repeat;
+  background: url(https://source.unsplash.com/f7YQo-eYHdM) center no-repeat;
+  background-size: cover;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  &:after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(https://picsum.photos/1000?image=932) center no-repeat;
-    background: url(https://source.unsplash.com/f7YQo-eYHdM) center no-repeat;
-    background-size: cover;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    &:after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(#000000, 0.5);
-    }
+    background-color: rgba(#000000, 0.5);
+  }
 }
 
 .cover-title {
-    width: 80%;
-    text-align: left;
-    padding-left: 25px;
-    z-index: 2;
-    h1 {
-        //font-weight: 600;
-        font-weight: normal;
-        font-size: 60px;
-        font-size: 3rem;
-        color: #3a3a3a;
-        display: block;
-        font-family: 'Inconsolata', monospace;
-    }
-    p {
-        color: #afafaf;
-        font-family: 'Inconsolata', monospace;
-    }
+  width: 80%;
+  text-align: left;
+  padding-left: 25px;
+  z-index: 2;
+  h1 {
+    //font-weight: 600;
+    font-weight: normal;
+    font-size: 60px;
+    font-size: 3rem;
+    color: #3a3a3a;
+    display: block;
+    // font-family: 'Inconsolata', monospace;
+    font-family: "Noto Sans", sans-serif;
+  }
+  p {
+    color: #afafaf;
+    // font-family: 'Inconsolata', monospace;
+    font-family: "Noto Sans", sans-serif;
+  }
 }
 
 .nav-cover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 25px;
-    z-index: 3;
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        li {
-            float: left;
-            padding-right: 15px;
-            text-transform: uppercase;
-            font-size: 13px;
-            font-size: 0.7rem; // font-weight: 600;
-            font-family: 'Inconsolata', monospace;
-            a {
-                color: #3a3a3a;
-            }
-            &:last-child {
-                padding-right: 0;
-            }
-        }
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px;
+  z-index: 3;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      float: left;
+      padding-right: 15px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-size: 0.7rem; // font-weight: 600;
+      font-family: "Inconsolata", monospace;
+      a {
+        color: #3a3a3a;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
     }
+  }
 }
