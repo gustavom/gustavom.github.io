@@ -1,14 +1,18 @@
 .footer {
+  width: 100%;
+  background-color: #000000;
+  @include cf();
+  .inner {
     width: 100%;
-    background-color: #000000;
+    max-width: 900px;
+    height: 50px;
+    margin: 0 auto;
     @include cf();
-    .inner {
-        width: 100%;
-        max-width: 900px;
-        margin: 0 auto;
-        @include cf();
-        padding: 10px 25px;
-        color: #afafaf;
-        font-family: 'Inconsolata', monospace;
-    }
+    // padding: 10px 25px;
+    padding: 2px 25px;
+    color: #afafaf;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    align-items: center;
+  }
 }
