@@ -14,7 +14,8 @@
 
 .masthead {
   width: 100%;
-  padding: 0 0 15px;
+  // padding: 0 0 15px;
+  background-color: #000000;
   @include cf();
   &-title {
     float: left;
@@ -23,7 +24,7 @@
     margin: 0;
     padding: 20px 0 0 20px;
     a {
-      color: #333;
+      // color: #333;
       &:hover,
       &:focus {
         text-decoration: none;
@@ -70,7 +71,7 @@
       }
     }
     a {
-      color: #333333;
+      color: #ffffff;
       -webkit-transition: all .2s ease;
       -moz-transition: all .2s ease;
       transition: all .2s ease;
